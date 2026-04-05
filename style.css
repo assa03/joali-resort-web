@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Manrope', sans-serif;
   line-height: 1.6;
   color: #1f1f1f;
   background: #f8f6f2;
@@ -144,4 +144,20 @@ h2 {
 
 .reviews blockquote {
   font-style: italic;
+}
+h1, h2, h3, .logo {
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 0.5px;
+}
+
+.hero h1 {
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+.logo {
+  font-size: 34px;
 }
