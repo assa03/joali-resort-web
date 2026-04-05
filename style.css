@@ -167,41 +167,56 @@ h2 {
   gap: 40px;
   align-items: center;
 }
-
 .section-image {
   width: 100%;
-  height: 420px;
+  height: 430px;
   object-fit: cover;
-  border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+  object-position: center;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
 }
 
 .card-image {
   width: 100%;
-  height: 220px;
+  height: 240px;
   object-fit: cover;
-  border-radius: 10px;
+  object-position: center;
+  border-radius: 12px;
   margin-bottom: 16px;
+  display: block;
+}
+
+.card {
+  overflow: hidden;
+}
+
+.cards {
+  align-items: stretch;
 }
 
 .card h3 {
   margin-bottom: 10px;
-}
-
-.reviews blockquote {
-  font-style: italic;
+  font-size: 28px;
 }
 
 @media (max-width: 768px) {
-  .two-column {
-    grid-template-columns: 1fr;
-  }
-
   .section-image {
     height: 280px;
   }
 
   .card-image {
-    height: 180px;
+    height: 190px;
   }
+}
+h1, h2, h3, .logo {
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 0.4px;
+}
+
+.hero h1 {
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 600;
 }
