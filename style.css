@@ -133,3 +133,15 @@ h2 {
     margin-bottom: 50px;
   }
 }
+.section p {
+  font-size: 18px;
+  max-width: 800px;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.reviews blockquote {
+  font-style: italic;
+}
